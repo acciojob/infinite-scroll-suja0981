@@ -7,7 +7,7 @@ for(let i=1;i<=10;i++){
 
 function addItem(){
 	const li=document.createElement("li");
-    li.textContent = `${number}`;
+    li.textContent = `Item ${number}`;
     list.appendChild(li);
 }
 window.addEventListener("scroll", function () {
