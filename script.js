@@ -5,7 +5,7 @@ for(let i=1;i<=10;i++){
     addItem(i);
 }
 
-function addItem(){
+function addItem(number){
 	const li=document.createElement("li");
     li.textContent = `Item ${number}`;
     list.appendChild(li);
